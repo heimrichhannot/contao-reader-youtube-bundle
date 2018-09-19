@@ -15,7 +15,7 @@
     "php": "^7.1",
     "contao/core-bundle": "^4.4",
     "heimrichhannot/contao-utils-bundle": "^2.10",
-    "heimrichhannot/contao-youtube-bundle": "1.0",
+    "heimrichhannot/contao-youtube-bundle": "^2.0",
     "heimrichhannot/contao-reader-bundle": "^1.0.0-beta55"
   },
   "require-dev": {
@@ -30,27 +30,15 @@
   },
   "autoload": {
     "psr-4": {
-      "HeimrichHannot\\YoutubeBundle\\": "src/"
-    },
-    "exclude-from-classmap": [
-      "src/Resources/contao/config/",
-      "src/Resources/contao/dca/",
-      "src/Resources/contao/languages/",
-      "src/Resources/contao/templates/"
-    ]
+      "HeimrichHannot\\YoutubeReaderBundle\\": "src/"
+    }
   },
   "autoload-dev": {
     "psr-4": {
-      "HeimrichHannot\\YoutubeBundle\\Test\\": "tests/"
+      "HeimrichHannot\\YoutubeReaderBundle\\Test\\": "tests/"
     }
   },
   "extra": {
-    "contao-manager-plugin": "HeimrichHannot\\YoutubeBundle\\ContaoManager\\Plugin",
-    "foxy": true
-  },
-  "suggest": {
-    "heimrichhannot/contao-encore-bundle": "Provide webpack encore asset support."
-  },
-  "prefer-stable": true,
-  "minimum-stability":"dev"
+    "contao-manager-plugin": "HeimrichHannot\\YoutubeReaderBundle\\ContaoManager\\Plugin"
+  }
 }
