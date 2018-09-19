@@ -1,5 +1,5 @@
 {
-  "name": "heimrichhannot/contao-youtube-reader-bundle",
+  "name": "heimrichhannot/contao-reader-youtube-bundle",
   "type": "contao-bundle",
   "description": "Youtube Content Element, with responsive support, preview image, play button and many more.",
   "keywords": [
@@ -30,15 +30,15 @@
   },
   "autoload": {
     "psr-4": {
-      "HeimrichHannot\\YoutubeReaderBundle\\": "src/"
+      "HeimrichHannot\\ReaderYoutubeBundle": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "HeimrichHannot\\YoutubeReaderBundle\\Test\\": "tests/"
+      "HeimrichHannot\\ReaderYoutubeBundle\\Test\\": "tests/"
     }
   },
   "extra": {
-    "contao-manager-plugin": "HeimrichHannot\\YoutubeReaderBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "HeimrichHannot\\ReaderYoutubeBundle\\ContaoManager\\Plugin"
   }
 }

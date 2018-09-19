@@ -6,7 +6,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace HeimrichHannot\YoutubeReaderBundle\ConfigElementType;
+namespace HeimrichHannot\ReaderYoutubeBundle\ConfigElementType;
 
 use Contao\CoreBundle\Framework\ContaoFrameworkInterface;
 use Contao\FrontendTemplate;

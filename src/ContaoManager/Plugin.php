@@ -6,7 +6,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace HeimrichHannot\YouTubeReaderBundle\ContaoManager;
+namespace HeimrichHannot\ReaderYoutubeBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -17,7 +17,7 @@ use Contao\ManagerPlugin\Config\ExtensionPluginInterface;
 use HeimrichHannot\ReaderBundle\HeimrichHannotContaoReaderBundle;
 use HeimrichHannot\UtilsBundle\Container\ContainerUtil;
 use HeimrichHannot\YoutubeBundle\HeimrichHannotContaoYoutubeBundle;
-use HeimrichHannot\YoutubeReaderBundle\HeimrichHannotContaoYoutubeReaderBundle;
+use HeimrichHannot\ReaderYoutubeBundle\HeimrichHannotContaoYoutubeReaderBundle;
 
 class Plugin implements BundlePluginInterface, ExtensionPluginInterface
 {

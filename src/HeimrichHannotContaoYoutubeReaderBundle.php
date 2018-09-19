@@ -6,7 +6,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace HeimrichHannot\YoutubeReaderBundle;
+namespace HeimrichHannot\ReaderYoutubeBundle;
 
 use HeimrichHannot\YoutubeBundle\DependencyInjection\HeimrichHannotContaoYoutubeExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
