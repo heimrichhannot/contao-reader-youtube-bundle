@@ -1,4 +1,4 @@
-# Youtube Reader Bundle
+# Reader Youtube Bundle
 
 A bundle provides [YouTube Bundle](https://github.com/heimrichhannot/contao-youtube-bundle) integration for [Reader Bundle](https://github.com/heimrichhannot/contao-reader-bundle).
 
