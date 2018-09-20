@@ -17,7 +17,7 @@ use Contao\ManagerPlugin\Config\ExtensionPluginInterface;
 use HeimrichHannot\ReaderBundle\HeimrichHannotContaoReaderBundle;
 use HeimrichHannot\UtilsBundle\Container\ContainerUtil;
 use HeimrichHannot\YoutubeBundle\HeimrichHannotContaoYoutubeBundle;
-use HeimrichHannot\ReaderYoutubeBundle\HeimrichHannotContaoYoutubeReaderBundle;
+use HeimrichHannot\ReaderYoutubeBundle\HeimrichHannotContaoReaderYoutubeBundle;
 
 class Plugin implements BundlePluginInterface, ExtensionPluginInterface
 {
@@ -27,7 +27,7 @@ class Plugin implements BundlePluginInterface, ExtensionPluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(HeimrichHannotContaoYoutubeReaderBundle::class)->setLoadAfter([
+            BundleConfig::create(HeimrichHannotContaoReaderYoutubeBundle::class)->setLoadAfter([
             	ContaoCoreBundle::class,
 				HeimrichHannotContaoReaderBundle::class,
 				HeimrichHannotContaoYoutubeBundle::class

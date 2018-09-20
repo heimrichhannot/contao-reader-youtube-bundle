@@ -11,6 +11,6 @@ namespace HeimrichHannot\ReaderYoutubeBundle;
 use HeimrichHannot\YoutubeBundle\DependencyInjection\HeimrichHannotContaoYoutubeExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class HeimrichHannotContaoYoutubeReaderBundle extends Bundle
+class HeimrichHannotContaoReaderYoutubeBundle extends Bundle
 {
 }

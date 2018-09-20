@@ -1,7 +1,7 @@
 {
   "name": "heimrichhannot/contao-reader-youtube-bundle",
   "type": "contao-bundle",
-  "description": "Youtube Content Element, with responsive support, preview image, play button and many more.",
+  "description": "A bundle to providing youtube integration for reader bundle.",
   "keywords": [
     "contao",
     "youtube",
